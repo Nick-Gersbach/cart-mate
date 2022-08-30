@@ -80,6 +80,7 @@ function renderItemsFromLocalStorage() {
 function addGrocery(e) {
   if (groceryInput.value === "") {
     alert("Please Add a Grocery");
+    li.style.display = "none";
   }
 
   //Create an li element with js and insert it into the ul groceryList
